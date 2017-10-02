@@ -1,0 +1,9 @@
+1. What happens when you initialize a repository? Why do you need to do it?
+
+It adds a new file/folder .git, which tells the system, that it is now git repository and it should save the history and all the meta data of commits.
+You need to do it, because a default folder do not track the history, so you need to tell the system that this folder should be tracked.
+
+2. How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+It is the middle step from working directory to git repository. You choose the files that you want to commit and add them to the staging area. Maybe redundance?
+
