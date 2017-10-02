@@ -1,0 +1,32 @@
+Lesson 1
+
+1. How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+It showed me the line numbers where differences occured, so it was easy to check just those lines. I quickly saw the difference, when I read the selected lines and compare them.
+
+2. How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+If you are trying to solve a problem and try different approaches, it is very good to keep the old files there, when everything was working properly. So if you do change something, and then the app/webpage does not work antmore, then you can easily go to previous version of the file and start again.
+
+3. What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+pros: you save it when you know you finished one closed problem and you are ready to go on
+
+cons: if you forget to commit or even worse if the computer suddenly shuts down, and you didn't commit than you can loose the work you did. In this case it is better to automatically save.
+
+4. Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Because git is meant for programmers and developers, where there is normal to have multiple files changed at one commit (html, css, js), where at google docs you usualy change just one file to see some change.
+
+6. How can you use the commands git log and git diff to view the history of files?
+
+git log shows you which commits were there in the history of files, with commit IDs and its description and it also shows you the time that it was commited.
+git diff shows you the differences between two commits, which you can find in git log.
+
+7. How might using version control make you more confident to make changes that could break something?
+
+If you can go backwords to the last working version, as we saw with git checkout, then there should not be any fear of losing or breaking something.
+
+8. Now that you have your workspace set up, what do you want to try using Git for?
+
+For my newly developed Android Apps!
