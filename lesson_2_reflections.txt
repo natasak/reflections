@@ -7,3 +7,34 @@ You need to do it, because a default folder do not track the history, so you nee
 
 It is the middle step from working directory to git repository. You choose the files that you want to commit and add them to the staging area. Maybe redundance?
 
+3. How can you use the staging area to make sure you have one commit per logical change?
+
+You can check the differences between working directory vs staging and staging vs repository. You can also add some files in staging area, take a pauze or change some other files and when you are ready commit all the files in one go.
+
+4. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+If you want to try different designs or different layouts, or experiment a bit, and if it doesn't go like you wanted, you can go back to the stage, where you made a branch and it was like you wanted. Or if you make a really nice new feature which works perfectly, you can work on the new branch further as a master and leave the other branch.
+
+5. How do the diagrams help you visualize the branch structure?
+
+It is easier to see and imagine how it is all connected, where is the HEADA, where are branches etc. 
+
+6. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+You put together two branches into one with all the commits from both of them. Represented is like that because it is easier to see the realtions between commits and branches (parents).
+
+7. What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic merging
+pros:
+- quickly
+- you don't have to worry how to merge
+cons:
+- possible mistakes
+
+Manual merging
+pros:
+- no mistakes
+- everything under control
+cons:
+- very slow process and time consumable
